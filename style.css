@@ -1,0 +1,1585 @@
+*{
+    padding: 0;
+    margin: 0;
+     
+    box-sizing: border-box;
+}
+/* Header section */
+#wrapper{
+    border: 2px solid black; 
+    width: 100%;
+    height: 2000px;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+#toplogo{
+    
+    width: 30%;
+    height: 90px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 28px;
+    padding-right: 250px;
+}
+
+#topmenu{
+    
+    width: 60%;
+    height: 90px;
+}
+
+#righticon{
+    
+    width: 10%;
+    height: 90px;
+    display: flex;
+    justify-content:space-around;
+    font-size:25px;
+    padding-top: 26px;
+    
+}
+#topmenu ul{
+    list-style-type: none;
+
+}
+
+#topmenu ul li{
+display: inline-block;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-top: 25px;
+
+}
+
+#topmenu ul li a{
+    font-family:"Roboto", sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
+}
+
+#topmenu ul li:hover{
+background-color: #8019C8;
+color: white;
+border-radius: 5px;
+}
+
+#topmenu ul li:hover a
+{
+   color: white;
+}
+
+#righticon i{
+    color: #8019C8;
+    
+}
+
+/* Banner section */
+#banner{
+    position: relative;
+}
+
+#banner img{
+   position: absolute;
+   background-size: cover;
+   background-position: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#banner-data h1{
+    position: absolute;
+    color: white;
+    margin-top: 140px;
+    margin-left: 90px;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.3rem;
+    font-weight: bold;
+
+    
+}
+
+#banner-data h3{
+    position: absolute;
+    color: white;
+    margin-top: 270px;
+    margin-left: 90px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    
+    
+}
+
+#banner-data .button1{
+    position: absolute;
+    
+        color: white;
+        background-color: #19c880;
+        border: 0px;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-top: 400px;
+        margin-left: 90px;
+}
+
+#banner-data .button1:hover{
+    background-color: #2d9339;
+}
+
+#banner-data .button2{
+    position: absolute;
+    
+        color: white;
+        background-color: #8019C8;
+        border: 0px;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-top: 400px;
+        margin-left: 290px;
+}
+
+#banner-data .button2:hover{
+    background-color: #590496;
+}
+
+/* Services section */
+#services{
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 700px;
+}
+
+#fast-delivery{
+   
+    width: 25%;
+    height: 300px;
+    background-color: rgb(244, 244, 244);
+    
+    
+}
+
+#fast-delivery img{
+    width: 75px;
+    height: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+  
+    
+}
+
+#fast-delivery h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#fast-delivery h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: 19px;
+    
+}
+
+#fast-delivery img:hover{
+    background-color: rgb(223, 178, 223);
+}
+
+
+
+#free-shiping{
+    
+    width: 25%;
+    height: 300px;
+    background-color: rgb(244, 244, 244);
+}
+
+#free-shiping img{
+    width: 75px;
+    height: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+}
+
+#free-shiping h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#free-shiping h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: 19px;
+    
+}
+
+
+#free-shiping img:hover{
+    background-color: rgb(223, 178, 223);
+}
+
+
+#best-quality{
+    
+    width: 25%;
+    height: 300px;
+    background-color: rgb(244, 244, 244);
+}
+
+#best-quality img{
+    width: 75px;
+    height: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+}
+
+#best-quality h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#best-quality h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: 19px;
+    
+}
+
+
+#best-quality img:hover{
+    background-color: rgb(223, 178, 223);
+}
+
+
+
+#customer-support{
+    
+    width: 25%;
+    height: 300px;
+    background-color: rgb(244, 244, 244);
+}
+
+#customer-support img{
+    width: 75px;
+    height: 75px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+}
+
+#customer-support h2{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#customer-support h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: 19px;
+    
+}
+
+
+#customer-support img:hover{
+    background-color: rgb(223, 178, 223);
+}
+
+
+
+
+
+
+
+/* About Section*/
+
+#about{
+    width: 100%;
+    height: 700px;
+    
+    display: flex;
+}
+
+#about-image{
+    width: 50%;
+    height: 700px;
+    
+    display: flex;
+}
+
+#about-our-shop{
+    width: 50%;
+    height: 700px;
+    
+}
+
+#a-image1{
+    width: 50%;
+    height: 650px;
+   
+    margin: 15px;
+
+}
+
+#a-image2{
+    width: 50%;
+    height: 650px;
+    margin: 15px;
+    
+
+}
+
+#a-watch1{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 450px;
+    
+    
+}
+
+#a-watch2{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    height: 450px;
+    margin-top: 140px;
+
+   
+}
+
+#about-image #a-image1 #a-watch1 img{
+    width: 100%;
+    height: 330px;
+}
+
+#about-image #a-image2 #a-watch2 img{
+    margin-top: 120px;
+    width: 100%;
+    height: 330px;
+}
+/* --------------------------- */
+#about-our-shop{
+    width: 50%;
+    height: 650px;
+    margin: 25px;
+}
+
+
+
+#about-our-shop h1{
+    
+    width: 100%;
+    height: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-top: 268px;
+}
+
+#about-our-shop p{
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+#about-our-shop button{
+    color: white;
+    background-color: #8019C8;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 70px;
+}
+
+#about-our-shop button:hover{
+    background-color: #590496;
+}
+
+/* Top Sale Watches */
+
+#top-sale-watches{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(244, 244, 244);
+   
+    
+}
+
+#sale-heading{
+    width: 290px;
+    height: 65px;
+    background-color: #19c880;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 14px;
+    padding-left: 7px;
+    margin-left: 53px;
+}
+#sale-image-box{
+    
+    height: 450px;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 110px;
+    margin-left: 120px;
+
+}
+/* ---------------------------------------------------- */
+#sale-image1{
+   
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#sale-image1 img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#sale-image1 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sale-image1 .cost{
+   
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#sale-image1 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#sale-image1 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ---------------------------------------------------- */
+
+#sale-image2{
+   
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+#sale-image2 img{
+    width: 200px;
+    height: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#sale-image2 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sale-image2 .cost{
+   
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#sale-image2 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#sale-image2 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ----------------------------------------------------- */
+#sale-image3{
+   
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+#sale-image3 img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#sale-image3 .cost-star-box{
+   
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#sale-image3 .cost{
+    
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#sale-image3 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#sale-image3 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+/* ------------------------------------------------------ */
+#sale-image-button{
+    
+    width: 1290px;
+    height: 45px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sale-image-button button{
+    color: white;
+    background-color: #8019C8;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+   
+}
+
+#sale-image-button button:hover{
+    background-color: #590496;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* Feature Watches */
+
+#feature-watches{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(244, 244, 244);
+}
+
+#feature-heading{
+    width: 290px;
+    height: 65px;
+    background-color: #19c880;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 14px;
+    padding-left: 7px;
+    margin-left: 53px;
+}
+#feature-image-box{
+    
+    height: 450px;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 110px;
+    margin-left: 120px;
+
+}
+/* ---------------------------------------------------- */
+#feature-image1{
+   
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#feature-image1 img{
+    width: 210px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#feature-image1 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#feature-image1 .cost{
+   
+    width: 130px;
+    height: 90px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#feature-image1 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#feature-image1 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ---------------------------------------------------- */
+
+#feature-image2{
+  
+   margin-left: 40px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#feature-image2 img{
+    width: 210px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#feature-image2 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#feature-image2 .cost{
+   
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#feature-image2 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#feature-image2 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ----------------------------------------------------- */
+#feature-image3{
+   
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+#feature-image3 img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#feature-image3 .cost-star-box{
+   
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#feature-image3 .cost{
+    
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#feature-image3 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#feature-image3 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+/* ------------------------------------------------------ */
+#feature-image-button{
+    
+    width: 1290px;
+    height: 45px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#feature-image-button button{
+    color: white;
+    background-color: #8019C8;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+   
+}
+
+#feature-image-button button:hover{
+    background-color: #590496;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* New Arrival */
+
+
+
+#new-arrival-watches{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(244, 244, 244);
+}
+
+#new-arrival-heading{
+    width: 290px;
+    height: 65px;
+    background-color: #19c880;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 14px;
+    padding-left: 45px;
+    margin-left: 53px;
+}
+#new-arrival-image-box{
+    
+    height: 450px;
+    width: 1250px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 110px;
+    margin-left: 120px;
+
+}
+/* ---------------------------------------------------- */
+#new-arrival-image1{
+   
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#new-arrival-image1 img{
+    width: 210px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#new-arrival-image1 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#new-arrival-image1 .cost{
+   
+    width: 130px;
+    height: 90px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#new-arrival-image1 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#new-arrival-image1 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ---------------------------------------------------- */
+
+#new-arrival-image2{
+  
+   margin-left: 40px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#new-arrival-image2 img{
+    width: 210px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#new-arrival-image2 .cost-star-box{
+    
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#new-arrival-image2 .cost{
+   
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#new-arrival-image2 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#new-arrival-image2 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+
+/* ----------------------------------------------------- */
+#new-arrival-image3{
+   
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    background-color: white;
+}
+
+#new-arrival-image3 img{
+    width: 200px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+#new-arrival-image3 .cost-star-box{
+   
+    width: 400px; 
+    margin-top: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#new-arrival-image3 .cost{
+    
+    width: 130px;
+    height: 90px;
+   
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+    margin-left: 5px;
+}
+
+#new-arrival-image3 .star{
+    
+    width: 110px;
+    height: 90px;
+    
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.3rem;
+}
+ 
+#new-arrival-image3 .star i{
+    font-size: 0.9rem;
+    color: #e2ba1b;
+}
+/* ------------------------------------------------------ */
+#new-arrival-image-button{
+    
+    width: 1290px;
+    height: 45px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#new-arrival-image-button button{
+    color: white;
+    background-color: #8019C8;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+   
+}
+
+#new-arrival-image-button button:hover{
+    background-color: #590496;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Contact-Us */
+
+#contact-us{
+   
+    width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+#contact-us-data{
+    
+    width: 50%;
+    height: 1000px;
+    
+}
+
+#contact-us-data h1{
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 120px;
+    margin-top: 160px;
+}
+
+input[type="text"]{
+    width: 600px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 125px;
+    box-shadow: 5px 5px 5px  lightgray;
+    border: 0px;
+}
+
+#contact-us-data .message{
+    height: 140px;
+}
+
+button[type="button"]{
+    
+        color: white;
+        background-color: #8019C8;
+        border: 0px;
+        font-family: "Roboto", sans-serif;
+        cursor: pointer;
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        margin-left: 125px;
+        margin-top: 50px;
+
+}
+
+#contact-us-data button:hover{
+    background-color: #590496;
+}
+
+
+#contact-us-image{
+    
+    width: 50%;
+    height: 1000px;
+}
+
+#contact-us-image img{
+    width: 600px;
+    height: 570px;
+    margin-top: 240px;
+    margin-left: 34px;
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Testimonial */
+
+#testimonial{
+   
+    width: 100%;
+    height: 700px;
+}
+
+#testimonial .testimonial-heading{
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-weight: bold;
+    line-height: 1.2rem;
+    font-size: 2.6rem;
+   margin-left: 650px;
+   padding-top: 90px;
+}
+
+#testimonial-box{
+   
+    width: 85%;
+    height: 485px;
+   margin-top: 37px;
+   margin-left: 190px;
+   position: relative;
+   
+}
+
+#top-left-data{
+    
+    width: 150px;
+    height: 55px;
+    padding-left: 110px;
+}
+
+#top-left-data h2{
+    color:  #8019C8;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+   
+}
+
+#top-left-data h3{
+    color: #19c880;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+#top-right-icon{
+    
+    width: 48px;
+    height: 48px;
+    color:   #8019C8;
+    font-size: 45px;
+}
+
+#testimonial-box .testimonial-data{
+    font-family: "Roboto", sans-serif;
+    color: #0c0c0c;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 35px;
+   margin-left:-1530px;
+    margin-top: 130px;
+}
+
+
+
+#customer-review{
+    
+    width: 920px;
+    height: 350px;
+    margin-left: 123px;
+    margin-top: 67px;
+    position: relative;
+    display: flex;
+   justify-content: space-between;
+   box-shadow: 10px 10px 5px lightgray;
+}
+
+#customer-image{
+    border: 7px solid #19c880;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    background-image: url(./images/client.jpg);
+    border-radius: 50%;
+    /* confirm this property from sir */
+    transform: translateY(-155%);
+    margin-left: 44px;
+
+}
+
+#customer-image img{
+    width: 170px;
+    height: 170px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+/* Handtime */
+
+#handtime{
+   
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+
+#handtime-heading{
+    
+    width: 70%;
+    height: 170px;
+    margin-left: 210px;
+    background-color:black;
+    border-bottom: 2px solid white;
+}
+
+#handtime-heading h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -190px;
+}
+
+#handtime-data{
+    display: flex;
+    margin-left: 110px;
+}
+
+#handtime-about-shop{
+    
+    width: 320px;
+    height: 320px;
+    background-color: black;
+    
+}   
+
+#handtime-about-shop h2{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 2.1rem;
+    margin-top: 40px;
+   
+}
+
+#address-icon{
+    
+    width: 30px;
+    height: 35px;
+}
+
+#address-icon i{
+    color: white;
+    font-size: 35px;
+}
+#handtime-about-shop-address{
+    display: flex;
+   height: 40px;
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+}
+
+#address-text{
+    margin-left: 20px;
+    color: white;
+}
+
+/* ---------------------- */
+
+#handtime-about-shop-phone-no{
+    display: flex;
+    height: 40px;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+}
+
+
+#phone-icon{
+   
+    width: 30px;
+    height: 35px;
+}
+
+#phone-icon i{
+    color: white;
+    font-size: 35px;
+}
+
+#phone-no{
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+}
+/* -------------------------- */
+
+#handtime-about-shop-email{
+    display: flex;
+    height: 40px;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+}
+
+
+#email-icon{
+   
+    width: 30px;
+    height: 35px;
+}
+
+#email-icon i{
+    color: white;
+    font-size: 35px;
+}
+
+#email-address{
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+    
+}
+
+
+/* -------------------------- */
+
+#handtime-information{
+    border: 2px solid black;
+    width: 320px;
+    height: 320px;
+    background-color: black;
+}
+
+#handtime-information h2{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 2.1rem;
+    margin-top: 40px;
+}
+
+#handtime-information h3{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: normal;
+   margin-top: 32px;
+}
+/* ---------------------------------- */
+
+#handtime-instagram{
+
+    
+    width: 320px;
+    height: 320px;
+    background-color: black;
+}
+
+#handtime-instagram h2{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 2.1rem;
+    margin-top: 40px;
+}
+
+#handtime-instagram img{
+    height: 230px;
+    width: 280px;
+}
+
+/* --------------------------- */
+
+
+#handtime-newsletter{
+
+    background-color: black;
+    width: 320px;
+    height: 320px;
+}
+
+#handtime-newsletter h2{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 2.1rem;
+    margin-top: 40px;
+    
+}
+
+
+   
+#handtime-newsletter button{
+    color: white;
+    background-color: #8019C8;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-left: 0px;
+    margin-top: 25px;
+   
+}
+
+#handtime-newsletter button:hover{
+    background-color: #590496;
+}
+
+ 
+#handtime-newsletter .newsletter-email{
+    width: 270px;
+    height: 50px;
+    margin-left: 0px;
+    
+}
+
+
+  
+#handtime-newsletter-icons{
+    display: flex;
+}
+
+#handtime-newsletter-icons i{
+    font-size: 2.4rem;
+    margin: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+/* Footer*/
+
+#footer-data{
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    background-color: #222222;
+}
+
+#footer-data h3{
+    color: aliceblue;
+    background-color: #222222;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
